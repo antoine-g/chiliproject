@@ -2,6 +2,7 @@
 source "https://rubygems.org"
 
 gem "rails", "2.3.18"
+gem "thin"
 
 gem "json", "~> 1.7.7"
 gem "coderay", "~> 1.0.0"

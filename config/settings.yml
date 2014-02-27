@@ -2,7 +2,7 @@
 # Settings can be defined through the application in Admin -> Settings
 
 app_title:
-  default: ChiliProject
+  default: ChiliProject on OpenShift
 app_subtitle:
   default: Project management
 welcome_text:
