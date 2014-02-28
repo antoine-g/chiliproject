@@ -51,8 +51,7 @@ default:
   # Your ChiliProject instance needs to have write permission on this
   # directory.
   #
-  attachments_storage_path: 
-ENV['OPENSHIFT_DATA_DIR'] + "/var/chiliproject/files"
+  attachments_storage_path: "<%=ENV['OPENSHIFT_DATA_DIR']%>/chiliproject/files"
   # attachments_storage_path: D:/chiliproject/files
 
   # Filesystem path to the directories where themes are stored.
@@ -62,7 +61,7 @@ ENV['OPENSHIFT_DATA_DIR'] + "/var/chiliproject/files"
   # webserver. Use Alias wisely.
   # The default is the 'public/themes' directory in your ChiliProject instance.
   #
-  themes_storage_path: ENV['OPENSHIFT_DATA_DIR'] + "public/themes"
+  themes_storage_path: "<%=ENV['OPENSHIFT_DATA_DIR']%>/public/themes"
   # themes_storage_path: D:/chiliproject/themes
   # themes_storage_path:
   # - public/themes

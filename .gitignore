@@ -3,7 +3,6 @@
 /config/additional_environment.rb
 /config/email.yml
 /config/setup_load_paths.rb
-/config/initializers/session_store.rb
 /coverage
 /db/*.db
 /db/*.sqlite3
